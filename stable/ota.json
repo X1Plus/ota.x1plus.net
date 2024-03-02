@@ -1,6 +1,6 @@
 {
-    "cfwVersion": "0.1",
-    "date": "2024-02-03",
-    "notes": "x1plus/0.1\n\nMock notes for testing",
-    "url": "https://notareal.url/fake/release.x1p"
+    "cfwVersion": "1.0",
+    "date": "2024-03-17",
+    "notes": "Initial release of X1Plus custom firmware, supporting Bambu Lab X1 and X1 Carbon.",
+    "url": "https://github.com/X1Plus/X1Plus/releases/download/x1plus%2F1.0/1.0.x1p"
 }
