@@ -1,6 +1,10 @@
 {
     "cfwVersion": "1.1",
     "date": "2024-04-17",
+    "buildTimestamp": 1714609079.0,
     "notes": "The first maintenance release of the X1Plus custom firmware, supporting Bambu Lab X1 and X1 Carbon!\n\nIn this release:\n  * Updated to Bambu Lab base firmware 01.07.03.00.\n  * Added translation support into Russian (thanks to Henry Thomasino!).\n  * Improved X1Plus-specific localization in other languages (most notably, Japanese -- thanks to Jun!)\n  * Improved WiFi performance (switched to brcmfmac driver, updated WiFi firmware).\n  * Taught installer to choose a printer by IP address.\n  * Improved reliability of custom button mappings, and added \"ignore\" button mapping option.\n  * Fixed a bug where the unlock screen number pad could get \"stuck\" if a dialog popped up at the wrong time.\n  * Fixed a bug around where images should go on the SD card for custom backgrounds.\n  * Made the console set the printer to relative mode before moving the bed.\n  * Taught installer to refuse to install on SD cards with nonstandard formatting that might not be able to boot X1Plus later.\n  * Added some behind-the-scenes features, including: userspace support for Windows fileshares via smbfs; a kernel module to support the Wireguard VPN client; and debugging tools for performance issues.\n\nKnown issues:\n  * Some translated text is too large for its boundaries.\n\nAre you ready to translate X1Plus into your own language?  Please get in touch on Discord!  We can add new languages entirely to the printer, and there is now translation support for X1Plus-specific strings in any language the printer supports.",
-    "url": "https://github.com/X1Plus/X1Plus/releases/download/x1plus%2F1.1/1.1.x1p"
+    "ota_url": "https://github.com/X1Plus/X1Plus/releases/download/x1plus%2F1.1/1.1.x1p",
+    "ota_md5": "1a261afdacb25e8e9fed4f1b0b068285",
+    "base_update_url": "https://public-cdn.bambulab.com/upgrade/device/BL-P001/01.07.03.00/product/1916138d2c/update-v00.00.28.59-20240330174859_product.img.zip.sig",
+    "base_update_md5": "8ab2870265db88690710cb781ce3ac8f"
 }
